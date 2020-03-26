@@ -1,0 +1,100 @@
+.video-pl{ height:512px}
+
+.video-layout{ width:1000px; margin:0 auto;}
+
+.subject-tabBox{ background:#282828; border-bottom:solid 2px #e13b29;}
+.subject-tabBox .sub-tabL{ float:left; line-height:60px; height:60px; overflow:hidden;}
+.subject-tabBox .sub-tabL li{ float:left;}
+.subject-tabBox .sub-tabL li a{ color:#fff; font-size:20px; padding:0px 27px;}
+.subject-tabBox .sub-tabL li a:hover{ background:#e13b29; display:block;}
+.subject-tabBox .sub-tabL li a.hover{ background:#e13b29; display:block;}
+.subject-tabBox .sub-tabL li.line{ border-right:1px solid #393939;}
+
+
+.Rselect-box{float:right; width:190px; position:relative; z-index:1111;}
+.subject-select{ line-height:35px; height:35px; border:solid 1px #454545; margin:10px 20px 0px 0px; cursor:pointer; position:relative; z-index:2; background:#282828;}
+.subject-select .currt{ color:#fff;}
+.subject-select span.txt{ color:#ccc; padding-left:15px; float:left; font-size:16px;}
+.subject-select i.ico{ width:12px; height:7px; display:block; float:right; background:url(../image/player-ico.png) no-repeat -24px 0px; margin:15px 10px;}
+.sub-sel-list{ border:solid 1px  #454545; background:#282828; position:absolute; left:0px; top:46px; width:168px; z-index:3; border-width: 0px 1px ;padding-top:5px;}
+.sub-sel-list li{ border-bottom: solid 1px #454545;}
+.sub-sel-list li a{ font-size:16px; line-height:40px; padding-left:15px; color:#fff; display:block;}
+.sub-sel-list li a:hover{ background:#e13b29; color:#fff;}
+
+
+.video-choiceBox{ padding-top:20px;}
+.video-play{ float:left;}
+.video-big{ width:100%; background-color:#333; margin-bottom:10px;}
+.video-big .gg-pic{ width:100%}
+.video-big .gg-pic img{ width:650px}
+.course-list{ background:#fff; width:340px; float:right; overflow:hidden;}
+.course-Lbtn span{ width:100%;display:block; float:left; background:#000;}
+.course-Lbtn a{text-align:center; background:#e13b29; height:65px; line-height:65px; color:#fff; font-size:24px; display:block;}
+.course-Lbtn a.zx-btn{ background:#ffa200;}
+.course-Lbtn a:hover{ background:#eb4319; color:#ff0;}
+.course-Lbtn a.zx-btn:hover{ background:#f49b00; }
+.course-Ltitle{ height:50px; background:#ebebeb; padding:0px 15px; overflow: hidden;position:relative;}
+.course-Ltitle span{ font-size:18px; font-weight:bold; color:#282828; line-height:50px; display: block;width: 260px;}
+.course-Ltitle .ksxk-btn{ background:#e13b29; line-height:32px; height:32px; width:90px; display:block; font-size:16px; color:#fff; text-align:center; font-weight:normal; position:absolute; right:15px; top:10px;}
+.course-Ltitle .ksxk-btn:hover{ background:#e11802; color:#ff0;}
+.currse-Lcon{ padding: 10px 20px 15px 20px;}
+.teacher-tab{ border-bottom:solid 1px #dfdfdf; margin-bottom: 16px;}
+.teacher-tab a{ line-height:30px; font-size:16px; display:inline-block; position:relative;}
+.teacher-tab a.curr,.teacher-tab a:hover{ color:#ff4311; border-bottom:solid 1px #ff4311; margin-bottom:-1px;}
+.teacher-tab a.curr em{ width:7px; height:4px; display:inline-block; background:url(../image/player-ico.png) no-repeat; position:absolute; left:50%; margin-left:-3px; bottom:-5px;}
+.teacher-tab i.line{ background:#c6c7c7; width:1px; height:10px; display:inline-block; margin:0px 10px;}
+.st-moreBtn{font-size:16px;color: #c00;text-decoration: none;text-align: left;display:block;}
+.wxplayer-flash{ width:650px; height:420px}
+.jg-info{ width:100%; background:#282828; padding:3px 0; height:73px; overflow:hidden}
+.jg-info-list{ float:left; color:#868686; padding-right:20px; padding-top:14px}
+.jg-info-list .icon{ display:block; width:40px; height:40px; background-image:url(../image/jg_info_icon.png); background-repeat:no-repeat; float:left; margin:5px 8px 0 15px}
+.jg-info-list .icon.tel{ background-position:0 0}
+.jg-info-list .icon.qq{ background-position:0 -40px}
+.jg-info-list .txt{ float:left; padding-top:3px; font-size:14px}
+.jg-info .line{ width:2px; height:100%; float:left; background:url(../image/jg_info_icon.png) 0 -75px; overflow:hidden}
+.jg-info .qr-code{float:right; padding-right:7px}
+.jg-info .qr-code img{width:73px; height:73px;}
+.jg-info-list a{color:#868686;}
+.jg-info-list a:hover{color:#ffa200;}
+.jg-info-list a:hover .icon.tel{ background-position:-40px 0}
+.jg-info-list a:hover .icon.qq{ background-position:-40px -40px}
+
+
+.scroll-listBox{ position:relative; height: 275px; width:300px; margin-bottom: 19px; overflow:hidden;}
+.scroll-listBox.he330{height:214px}
+.course-list-con{ width: 260px; padding:15px 10px;}
+.course-list-con .expanded{ font-size: 14px; font-weight:bold; position:relative; }
+.course-list-con .expanded i{ position:absolute; right:0px; top: 8px; background:url(../image/player-ico.png) no-repeat 0px -56px; width:8px; height:5px; display:block;}
+.course-list-con a{ display:block;color:#999;  position:relative; padding: 5px 20px 5px 30px;}
+.course-list-con dd a{ text-decoration:none;}
+.course-list-con dd a p{ padding:0;overflow:hidden; height:26px; max-width:88%; display:inline-block; line-height:26px;}
+.course-list-con dd a:hover{ background:#f8f8f8;}
+.course-list-con dd a.hover,.course-list-con dd a.hover:hover{ background:#f7a898; color:#fff!important; font-weight:bold;}
+.course-list-con dd a b.freest{ padding:3px; background:#39b378; position:relative; display:inline-block; margin-top:-4px; border-radius:2px; color:#fff; font-weight:normal; width:auto; line-height:12px; height:12px; top:0; left:6px; font-family:simsun}
+.course-list-con dd a b.freest.people{ background:#3e7cc5}
+.course-list-con dd a.free-color{ color:#333}
+
+.course-list-con dd a.hover{ position:relative;}
+.course-list-con dd a.hover b.correct{ background:url(../image/player-ico.png) no-repeat 0px -72px; width:16px; height:16px; display:inline-block; position:absolute; left: 5px; top: 6px; _left:-25px;}
+
+
+ul.list-number li{ display:inline-block; background:#f0f0f0; padding:9px 0 4px 10px;display: block; }
+ul.list-number li a{border-radius:2px; margin-right:8px; margin-bottom:4px; padding:2px 0; width:42px; text-align:center; white-space:nowrap; display:inline-block; font-size:11px; color:#666; }
+ul.list-number li a.hover,ul.list-number li a.hover:hover{ color:#fff;background:#f25130;background-image: linear-gradient(90deg,#fe7f65,#f25130);}
+ul.list-number li a:hover{  color:#fff;background:#aaa}
+#mediaframe{ width:650px; height:367px}
+
+
+.w1200 .video-layout{ width:1200px;}
+.w1200 .scroll-listBox.he330{height:330px}
+.w1200 #mediaframe{ width:850px; height:480px}
+.w1200 .video-big .gg-pic{ display:none}
+
+
+
+
+
+
+@media screen and (max-width:1366px){ 
+
+}

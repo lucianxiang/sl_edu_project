@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>404_</title>
+    
+    <style type="text/css">
+        .ymds{margin-top: 50px;}
+        .ymds img{float: left;}
+        .ymds .right{float: left; margin-top: 160px;}
+        .ymds .right .row{font-size: 24px;color: #03aef9;margin-bottom: 36px;}
+        .ymds .right .row1{font-size: 16px;color: #666;margin-top: 16px;}
+        .wrap{width: 1200px;margin:0 auto;}
+        .ymds .return_index{font-size: 16px;color: #fff;display:block; width: 160px;height: 40px;line-height: 40px;text-align: center;margin-top: 30px; border-radius: 40px; background-color: #03aef9;}
+    </style>
+    
+</head>
+<body>
+<div class="wrap ymds">
+    <img src="/images/sl/404.png" alt="404">
+    <div class="right">
+        <p class="row">小蓝正留校罚站，因为他把页面弄丢了~~</p>
+        <p class="row1">没有发现你要找的页面，经砖家仔细研究结果如下：</p>
+        <p class="row1">· 贵玉手输入地址时可能存在键入错误</p>
+        <p class="row1">· 小蓝把页面落在家里忘带了</p>
+        <p class="row1">· 不排除阁下人品问题</p>
+        <p class="row1">· 电信网通那头接口生锈了</p>
+        <a class="return_index" href="/">返回首页</a>
+    </div>
+</div>
+</body>
+</html>

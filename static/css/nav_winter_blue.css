@@ -1,0 +1,64 @@
+.C_topline{ height:30px; line-height:30px;background:#f5f5f5; border-bottom:1px #dcdcdc solid;}
+.C_topline .w_main{ width:1000px; margin:0px auto;}
+.C_topline a,.C_footer a{ color:#333;}.C_topline a.redTxt{ color:#DD0000;}
+.C_topline .user{ margin-left:10px; color:#066a99; font-family:Arial; float:left;}
+.C_topline .grayTxt{ float:right; margin:auto 10px; color:#ddd;}
+.C_topline .car{ background:url(../image/icon-bule.png) no-repeat -56px -489px; text-indent:2em;}
+.C_topline .car b{ font-weight:normal; color:#cc0000;}
+
+
+
+.lm-topinfo{background:#f9f9f9; height:35px; line-height:35px; border-bottom:1px solid #e9e9e9;}
+.lm-head{ margin:20px auto;}
+.lm-head .logo{ float:left;}
+.lm-head .logo h1{ font-size:42px; line-height:68px; color:#043361;}
+.lm-head .logo p{ color:#b70000; font-size:14px;}
+.lm-head .tell{ background:url(../image/icon-bule.png) no-repeat left top; height:63px; float:left; padding-left:70px; margin-top:6px; width:150px;}
+.lm-head .tell p{ color:#666; font-size:16px; line-height:29px; height:29px;}
+.lm-head .tell .tells{ font-size:18px; font-weight: bold; font-family: Adobe Devanagari; color:#00a6d8;}
+.rigser{ float:left; margin-top:8px; position:relative; left:190px; top:10px;}
+.rigser em{ position:absolute; background:url(../image/icon-bule.png) no-repeat right  -68px; width:19px; height:19px;left:6px; top:5px;}
+.serbk{ height:27px; width:240px; border:1px solid #dcdcdc; text-indent:32px; line-height:29px; position:absolute; }
+.serbk:hover{border:1px solid #007ca0;}
+.serbtn{ height:29px; background:#007ca0; border:none; color:#fff; width:45px; position:absolute; left:240px; cursor:pointer;}
+
+
+.loginwapper{ float:right; }
+.loginbd{ border:1px solid #dcdcdc ; width:145px; border-radius:3px; text-indent:4px;height:25px; line-height:25px;*height:23px; *line-height:23px;}
+.loginbtn{ background:#fe7200; text-align:center; width:56px; height:56px; float:right; color:#FFF;  border:none; cursor:pointer;margin-left:7px;border-radius:3px;transition:background-color 1s;-moz-transition:background-color 1s; -webkit-transition:background-color 1s; -o-transition: background-color 1s;*width:50px;}
+.loginbtn:hover{ background:#fe9500;}
+
+.lm-topnav{ height:44px; background:#00a6d8; line-height:44px; margin-top:10px; _overflow:hidden; border-bottom: 3px solid #007ca0;}
+.topnav{ color:#FFF; position:relative; z-index:10;}
+
+
+.topnavs{ overflow:hidden; height:44px;}
+.topclass{ font-size:14px; font-weight:bold; width:121px; background:#007ca0; float:left; padding-left:25px; }
+
+.topclass a{ color:#FFF;width:121px; height:44px; display:block;}
+.topclass span{ background:url(../image/icon-bule.png) no-repeat -28px -76px; width:9px; height:8px; display:block; float:right; margin:20px 23px 0px 0px; overflow:hidden;_margin:18px 4px 0px 0px;}
+.topnavs ul li{ float:left; background:url(../image/navlines.png) no-repeat right center; _width:85px; _text-align:center;}
+.topnavs ul li a{ color:#FFF; font-size:14px;padding:0px 15px; height:44px; display:block; _padding:0px}
+.topnavs ul li a:hover{ background:#fff04f; margin-left:-1px; padding-right:19px; _padding:0px; color:#000; border-bottom:3px solid #f1dc00;}
+.topnavs ul .topnavshov{background:#fff04f; margin-left:-1px; _padding:0px;border-bottom:3px solid #f1dc00;}
+.topnavs ul .topnavshov a{color:#000;}
+.topnavs ul .topnavshov a:hover{ margin-left:0px;background:#fff04f; border-bottom:none; }
+
+
+.topclsshow{ position: relative; left:0px; _left:-146px;}
+.topclsshow ul{ padding-top:2px; background:url(../image/classhowbg.jpg) repeat-y; width:146px; height:322px; position:absolute; top:44px; left:0px;}
+.topclsshow ul li{ border-bottom:1px dashed #d0d0d0;  text-indent:50px;}
+.topclsshow ul li{height:37px; line-height:37px;}
+
+.topshowliaout{ color:#000;width:146px; display:block;}
+.topshowliaover{ background:#007ca1; color:#FFF; border-left:3px solid #ffce07;width:143px;}
+
+.topclsshow ul .topclasshowhov{ background:#007ca0;border-left:3px solid #fff04f;}
+.topclsshow ul .topclasshowhov a{ color:#FFF;}
+.topclsshow ul .topclasshowhov a:hover{ border:none;}
+
+.topclsshow ul li .classnavs{background:#007ca0; height:326px; width:116px; position:absolute; left:146px; top:0px; padding:0px 15px;}
+.topclsshow ul li .classnavs ul{ padding-top:2px; top:0px; background:#007ca0;}
+.topclsshow ul li .classnavs ul li{height:26px; line-height:26px; margin:0px; border:none; text-indent:0px;}
+.topclsshow ul li .classnavs ul li a{  display:block; color:#FFF; text-align:center; width:146px;}
+.topclsshow ul li .classnavs ul li a:hover{ background:#fff04f;color: #000;}

@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width">
+    <title>泸州市胜蓝职业学校</title>
+    
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <script type="text/javascript" src="static/js/jquery-1.7.1.min.js"></script>
+    <script type='text/javascript' src="static/js/jquery.artDialog-simple.js"></script>
+    <script type="text/javascript" src="static/js/ShowSwitch.js"></script>
+    <script type="text/javascript" src="static/js/focus.js"></script>
+    <script type="text/javascript" src="static/js/caroufredsel.js"></script>
+    <script type="text/javascript" src="static/js/tinyscrollbar.js"></script>
+    <script type='text/javascript' src="static/js/jquery.md5.js"></script>
+    <script type="text/javascript" src="static/js/App.js"></script>
+    <script type="text/javascript" src="static/js/Validator-20160727003.js"></script>
+    <script type="text/javascript" src="static/js/login_15_09_10-2020031201.js"></script>
+</head>
+<body>
+    <!--页头开始s-->
+<link type="text/css" rel="stylesheet" href="static/css/topline_common.css">
+<link type="text/css" rel="stylesheet" href="static/css/nav_winter_blue.css">
+<script type="text/javascript">
+    function ShowParentClass() {
+        $(".topshowliaover").removeClass("topshowliaover").addClass("topshowliaout");
+        $(".topclsshow").show();
+    }
+
+    function GetChildClass(parentid) {
+        $(".topshowliaover").removeClass("topshowliaover").addClass("topshowliaout");
+        $("#topshow" + parentid).addClass("topshowliaover");
+        $(".classnavs").hide();
+        $("#child" + parentid).show();
+    }
+
+    function CloseClassPanl() {
+        $(".topclsshow").hide();
+        $(".classnavs").hide();
+    }
+</script>
+<link type="text/css" rel="stylesheet" href="static/css/kefusevice_blue.css">
+
+    <script type="text/javascript">
+        var theTop = 150; var old = theTop;
+        $(document).ready(function () {
+            MoveTips();
+        });
+
+        function MoveTips() {
+            var tips = document.getElementById('divQQService');
+            if (window.innerHeight) {
+                pos = window.pageYOffset;
+            } else if (document.documentElement && document.documentElement.scrollTop) {
+                pos = document.documentElement.scrollTop;
+            } else if (document.body) {
+                pos = document.body.scrollTop;
+            }
+            pos = pos - tips.offsetTop + theTop;
+            pos = tips.offsetTop + pos / 10;
+            if (pos < theTop) pos = theTop;
+            if (pos != old) {
+                tips.style.top = pos + "px";
+            }
+            old = pos;
+            //滚动响应时间，单位微秒
+            setTimeout(MoveTips, 5);
+        }
+
+        function CloseTips() {
+            $(".qqserver_fold").show();
+            $(".qqserver-body").hide();
+        }
+
+        function OpenTips() {
+            $(".qqserver_fold").hide();
+            $(".qqserver-body").show();
+        }
+
+        function GettoTop() {
+            $('html,body').animate({ scrollTop: 0 }, 150);
+        }
+    </script>
+    <div id="divQQService" class="qqservice">
+        <div class="qqserver_fold" style="display: none" onclick="OpenTips()">
+            <span>在线客服</span>
+        </div>
+        <div class="qqserver-body" style="display: block;">
+            <div class="close" title="关闭" onclick="CloseTips()"></div>
+            <div class="qqserver-header">
+                在线客服
+            </div>
+                <table class="service_table">
+                    <tr>
+                        <td class="service_title_td"><span class="service_name_span">在线咨询：</span></td>
+                    </tr>
+                    <tr><td valign='bottom' class='lianxi_qq_td'><a class='service_qq_a' href='javascript:;' target='_blank'><img class='service_qq_img' title='点击这里给我发消息' alt='点击这里给我发消息' src='static/picture/pa-230516075531720_0.77264639327.jpg'><span class='service_name_span' style='line-height: 25px; margin-left: 1px;'>杨老师</span></a></td></tr><tr><td valign='bottom' class='lianxi_qq_td'><a class='service_qq_a' href='javascript:;' target='_blank'><img class='service_qq_img' title='点击这里给我发消息' alt='点击这里给我发消息' src='static/picture/pa-230516075531720_0.77264639327.jpg'><span class='service_name_span' style='line-height: 25px; margin-left: 1px;'>技术支持</span></a></td></tr>
+                </table>
+                            <table class="service_table">
+                    <tr>
+                        <td class="service_title_td"><span class="service_name_span">电话咨询：</span></td>
+                    </tr>
+                    <tr><td class='lianxi_tel_td'><table><tr><td style='height:20px'><span style='margin-left:4px;' class='service_name_span'>杨老师</span></td></tr><tr><td style='height:20px'><span style='margin-left:8px;' class='service_number_span'>18015728518</span></td></tr></table></td></tr><tr><td class='lianxi_tel_td'><table><tr><td style='height:20px'><span style='margin-left:4px;' class='service_name_span'>技术支持</span></td></tr><tr><td style='height:20px'><span style='margin-left:8px;' class='service_number_span'>18782924030</span></td></tr></table></td></tr>
+                    <tr>
+                        <td style="height: 5px"></td>
+                    </tr>
+                </table>
+                            <table class="service_table saoma">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="static/picture/158124201870781.jpg" width="100" height="100" alt="">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            <div class="main_top"><a href="javascript:;" title="回到顶部" onclick="GettoTop()"></a></div>
+        </div>
+    </div>
+
+    <!--顶部-->
+    <div class="C_topline">
+        <div class="w_main bc">
+            <span class="fl">您好！泸州市胜蓝职业学校欢迎您！</span>
+                <span>
+                    <a target="_blank" href="javascript:;" class="ml10 fl">请登录</a>
+                    <a target="_blank" href="javascript:;" class="ml10 fl">快速注册</a>
+                </span>
+            <a target="_blank" href="javascript:;" class="fr">个人中心</a>
+            <span class="grayTxt">|</span>
+            <a target="_blank" href="javascript:;" class="fr">免费题库</a>
+            <span class="grayTxt">|</span>
+            <a target="_blank" href="javascript:;" class="fr">我的课程</a>
+            <span class="grayTxt">|</span>
+            <a target="_blank" href="javascript:;" class="fr">免费体验 </a>
+        </div>
+    </div>
+    <!--顶部 end-->
+    <!--头部-->
+    <div class="lm-head clearfix" style="width: 1000px;">
+        <div class="logo">
+                <a href="index2.html" class="logo-txt">
+                    <img style="max-width: 300px; max-height: 74px" alt="泸州市胜蓝职业学校" src="static/picture/logo_hei.png">
+                </a>
+        </div>
+            <div class="tell">
+                <p>咨询电话：</p>
+                <p class="tells">0830-6663336</p>
+            </div>
+        <div class="rigser">
+            
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="lm-topnav">
+        <div class="w1000 topnav">
+            <div class="topclass" onmouseover="ShowParentClass()"><a href="javascript:;"><span></span>所有课程分类</a></div>
+            <div class="topclsshow" style="z-index: 1000; display: none;" onmouseleave="CloseClassPanl()">
+                <ul>
+                    <li class='topclsshowhow' onmouseover='GetChildClass(324)'><a id='topshow324' class='topshowliaout' href='javascript:;'>建筑工程</a><div id='child324' class='classnavs' style='display:none'><ul><li parentid='324'><a target='_blank' href='zaojia.html'>造价工程师</a></li><li parentid='324'><a target='_blank' href='javascript:;'>一级建造师</a></li><li parentid='324'><a target='_blank' href='jianli.html'>监理工程师</a></li><li parentid='324'><a target='_blank' href='jzs2.html'>二级建造师</a></li><li parentid='324'><a target='_blank' href='zjy.html'>二级造价工程师</a></li><li parentid='324'><a target='_blank' href='aq.html'>安全工程师</a></li><li parentid='324'><a target='_blank' href='cfe.html'>一级消防工程师</a></li><li parentid='324'><a target='_blank' href='javascript:;'>消防设施操作员</a></li></ul></div></li><li class='topclsshowhow' onmouseover='GetChildClass(325)'><a id='topshow325' class='topshowliaout' href='javascript:;'>财会学院</a><div id='child325' class='classnavs' style='display:none'><ul><li parentid='325'><a target='_blank' href='jjs.html'>经济师</a></li><li parentid='325'><a target='_blank' href='cpa.html'>注册会计师</a></li><li parentid='325'><a target='_blank' href='zhongji.html'>中级会计师</a></li><li parentid='325'><a target='_blank' href='chuji.html'>初级会计师</a></li></ul></div></li><li class='topclsshowhow' onmouseover='GetChildClass(327)'><a id='topshow327' class='topshowliaout' href='javascript:;'>职业资格</a><div id='child327' class='classnavs' style='display:none'><ul><li parentid='327'><a target='_blank' href='hr.html'>人力资源管理</a></li><li parentid='327'><a target='_blank' href='javascript:;'>教师资格</a></li><li parentid='327'><a target='_blank' href='shgzz.html'>社会工作者</a></li><li parentid='327'><a target='_blank' href='gongzhao.html'>教师公开招聘</a></li><li parentid='327'><a target='_blank' href='teacherms.html'>教师资格面试</a></li><li parentid='327'><a target='_blank' href='fakao.html'>法律职业资格</a></li></ul></div></li><li class='topclsshowhow' onmouseover='GetChildClass(328)'><a id='topshow328' class='topshowliaout' href='javascript:;'>医学医药</a><div id='child328' class='classnavs' style='display:none'><ul><li parentid='328'><a target='_blank' href='yaoshi.html'>执业药师</a></li><li parentid='328'><a target='_blank' href='hushi.html'>护士资格</a></li><li parentid='328'><a target='_blank' href='jiankanggls.html'>健康管理师</a></li></ul></div></li><li class='topclsshowhow' onmouseover='GetChildClass(329)'><a id='topshow329' class='topshowliaout' href='javascript:;'>学历教育</a><div id='child329' class='classnavs' style='display:none'><ul><li parentid='329'><a target='_blank' href='ck.html'>成人高考</a></li></ul></div></li><li class='topclsshowhow' onmouseover='GetChildClass(450)'><a id='topshow450' class='topshowliaout' href='javascript:;'>公务员</a><div id='child450' class='classnavs' style='display:none'><ul><li parentid='450'><a target='_blank' href='tegang.html'>特岗教师</a></li></ul></div></li><li class='topclsshowhow' onmouseover='GetChildClass(530)'><a id='topshow530' class='topshowliaout' href='javascript:;'>金融学院</a><div id='child530' class='classnavs' style='display:none'><ul><li parentid='530'><a target='_blank' href='ccbp.html'>银行从业</a></li><li parentid='530'><a target='_blank' href='zq.html'>证券从业资格</a></li><li parentid='530'><a target='_blank' href='qh.html'>期货从业资格</a></li><li parentid='530'><a target='_blank' href='jjxs.html'>基金从业</a></li></ul></div></li>
+                </ul>
+            </div>
+            <div class="topnavs">
+                <ul>
+                    <li><a href='javascript:;'>学校动态</a></li><li><a target='_blank' href='javascript:;'>胜蓝官网</a></li><li><a target='_blank' href='online_study.html'>胜蓝教育</a></li><li><a target='_blank' href='javascript:;'>关于我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--头部 end-->
+
+    <!--页头结束-->
+    
+<script type="text/javascript">
+    (function (a, b) {
+        if ((/AppleWebKit.*Mobile/i.test(a) || /Android|Windows Phone|webOS|iPhone|iPod|BlackBerry/i.test(a) || /MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(a)) && location.hash != '#m')
+            window.location = b
+    })(navigator.userAgent, location.href.replace("/fine", "/m/fine"));
+</script>
+<div style="display:none;">
+    <script type="text/javascript" src="static/js/z_stat-1278181935_1278181935.js"></script>
+</div>
+    <!--mainbody-->
+
+<link type="text/css" rel="stylesheet" href="static/css/main_winter_blue.css">
+<script type="text/javascript">
+    var defaultclassId = 0;
+    var courseclassList = [];
+    var courserootdirectory = "/course";
+    var shoppingrootdirectory = "/shopping";
+    var seniorrootdirectory = "/fine";
+    $(document).ready(function () {
+        $(document).ready(function () {
+            GetRecommendCourseClass();
+            GetRecommendCourseList(defaultclassId, 0);
+            GetHomePaperList(14, 3);
+            $("#btnLogin").click(function () {
+                var userName = $("#txtUserName").val();
+                var passWord = $("#txtPassWord").val();
+                return UserLogin(userName, passWord);
+            });
+
+            $("#txtUserName,#txtPassWord,#btnLogin").keydown(function (e) {
+                if (e.keyCode == 13) {
+                    $("#btnLogin").click();
+                    return false;
+                }
+            });
+
+            //试卷分类点击事件
+            $(".zxkcnav ul li").click(function () {
+                //分类选中样式
+                $(".zxkcnav").find("li").removeClass("zxnavhov");
+                $(this).attr("class", "zxnavhov");
+                //题型选中
+                $(".zxkcnavtwo").find("li").removeClass("zxkcnavtwohov");
+                $("#limoni").attr("class", "zxkcnavtwohov");
+
+                var parentId = $(this).attr("newclass");
+                var paperType = $(".zxkcnavtwohov").attr("papertype");
+
+                GetHomePaperList(parentId, paperType);
+            });
+            //试卷题型点击事件
+            $(".zxkcnavtwo ul li").click(function () {
+                var parentId = $(".zxnavhov").attr("newclass");
+                var paperType = $(this).attr("papertype");
+                if (paperType != null && paperType != undefined) {
+                    $(".zxkcnavtwo").find("li").removeClass("zxkcnavtwohov");
+                    $(this).attr("class", "zxkcnavtwohov");
+                    GetHomePaperList(parentId, paperType);
+                }
+            });
+        });
+
+        $('#test').tinyscrollbar({ axis: 'x', sizethumb: 190 });
+    });
+
+    $(function () {
+        $(".bmlclist ul").ShowSwitch({
+            css: 'bmhover',
+            showIndex: 2
+        });
+    });
+
+    //获取推荐课程分类
+    function GetRecommendCourseClass() {
+        var parentHtml = "";
+        var childHtml = "";
+        App.post(function (result) {
+            if (result != null && result != "" && result.list.length > 0) {
+                courseclassList = result.list;
+                var parentId = 0;
+                for (i = 0; i < result.list.length; i++) {
+                    var kcnavhov = "";
+                    var currparentId = parseInt(result.list[i].ParentId);
+                    if (currparentId <= 0) {
+                        var classid = result.list[i].ClassId;
+                        var classcname = result.list[i].ClassCname;
+                        if (parentId == 0) {
+                            parentId = classid;
+                            kcnavhov = "kcnavhov";
+                        }
+                        if (defaultclassId == 0)
+                        {
+                            defaultclassId = classid;
+                        }
+
+                        parentHtml += "<li classid='" + classid + "' class='" + kcnavhov + "' id='li" + classid + "'><a classid='" + classid + "' href='javascript:;' onclick=\"GetRecommendCourseList('" + classid + "',0)\">" + classcname + "</a></li>";
+                    }
+                }
+                if (parentId > 0) {
+                    var childcount = 0;
+                    for (j = 0; j < result.list.length; j++) {
+                        var childparentId = parseInt(result.list[j].ParentId);
+                        if (childparentId == parentId && childcount < 10) {
+                            var classid = result.list[j].ClassId;
+                            var classename = result.list[j].ClassEname;
+                            var classcname = result.list[j].ClassCname;
+                            childHtml += "<li><a href='javascript:;' parentid='" + parentId + "' onclick=\"GetRecommendCourseList('" + classid + "',1)\">" + classcname + "</a></li>";
+                            childcount += 1;
+                        }
+                    }
+                }
+
+                $(".kcleftnav ul").html(parentHtml);
+                $(".kclass ul").html(childHtml);
+            }
+        }, seniorrootdirectory + "/winter/getrecommcourseclasslist", null, false);
+
+    }
+
+    //获取推荐课程，flag:0,父类;1,子类
+    function GetRecommendCourseList(classid, flag) {
+        if (flag == 0) {
+            $(".kcnavhov").removeClass("kcnavhov");
+            $("#li" + classid).attr("class", "kcnavhov");
+        }
+        var childHtml = "";
+        var resultHtml = "";
+        if (flag == 0) {
+            if (courseclassList != null && courseclassList.length > 0) {
+                var childcount = 0;
+                for (var i = 0; i < courseclassList.length; i++) {
+                    var parentId = parseInt(courseclassList[i].ParentId);
+                    if (classid == parentId && childcount < 9) {
+                        childHtml += "<li><a href='javascript:;' parentid='" + parentId + "' onclick=\"GetRecommendCourseList('" + courseclassList[i].ClassId + "',1)\">" + courseclassList[i].ClassCname + "</a></li>";
+                        childcount += 1;
+                    }
+                }
+                $(".kclass ul").html(childHtml);
+            }
+        }
+        var option = { classid: classid, flag: flag, toptake: 6 };
+        $(".kcshow").html("<div class=\"loading\"><img src=\"https://img.233.com/wx/img/union/home/default/red/loading.gif\" /></div>");
+        App.post(function (result) {
+            if (result != null && result != "" && result.list.length > 0) {
+                resultHtml += "<ul>";
+                for (var i = 0; i < result.list.length; i++) {
+                    var myclassname = unescape(result.list[i].MyClassName);
+                    if (myclassname.length >= 18) {
+                        myclassname = myclassname.substr(0, 18) + "...";
+                    }
+                    var studyUrl = courserootdirectory + "/study?umid=" + result.list[i].MyClassId + "&mid=" + result.list[i].ExamdaMyClassId;
+                    if (result.list[i].ExamdaMyClassId == 0) {
+                        //studyUrl = "us/courselist.aspx?UMyClassID=" + result.list[i].MyClassId;
+                        studyUrl = "/course/coursedetail/" + result.list[i].MyClassId;
+                    }
+                    var buyerUrl = shoppingrootdirectory + "/cart?myclassid=" + result.list[i].MyClassId;
+
+                    resultHtml += "<li>";
+                    resultHtml += "<a target='_blank' href='" + studyUrl + "'><img src='" + result.list[i].MyClassPic + "' width='237' height='136' onerror=\"this.src='https://img2.233.com/wx/union/1.png'\" /></a>";
+                    resultHtml += "<p class='kcname'>" + myclassname + "</p>";
+                    resultHtml += "<span class='kcprice'>￥" + result.list[i].GoodPrice + "</span> <span class='stbtn'><a target='_blank' href='" + studyUrl + "'>免费试听</a></span>";
+                    resultHtml += "<div class='kcbottom clear'> <span class='left'>主讲：" + unescape(result.list[i].Teacher) + "老师</span><span class='right'><a target='_blank' href='" + buyerUrl + "'>立即购买</a></span> </div>";
+                    resultHtml += "</li>";
+                }
+                resultHtml += "</ul>";
+                $(".kcshow").html(resultHtml);
+            } else {
+                $(".kcshow").html("<div class=\"nodata\">暂无推荐课程...</div>");
+            }
+        }, seniorrootdirectory + "/winter/gethomerecommendcourse", option, false);
+    }
+
+    //推荐试卷
+    function GetHomePaperList(classid, papertype) {
+        var resultHtml = "";
+        $(".zxkclist").html("<div class=\"loading\"><img src=\"https://img.233.com/wx/img/union/home/default/red/loading.gif\" /></div><br class=\"cb\" />");
+        App.post(function (result) {
+            if (result != null && result != "" && result.list.length > 0) {
+
+                resultHtml += "<ul>";
+                for (var i = 0; i < result.list.length; i++) {
+                    var maxscore = result.list[i]["MaxScore"] != null ? result.list[i]["MaxScore"] : 0;
+                    var clicknum = result.list[i]["ClickNum"] != null ? result.list[i]["ClickNum"] : 0;
+                    resultHtml += "<li><span class='xh'>" + parseInt(i + 1) + "</span>";
+                    resultHtml += "<div class='zxkcinfo'>";
+                    resultHtml += "<a target='_blank' href='/tiku/exam/kaoshi/item/" + result.list[i]["PaperID"] + "'>" + result.list[i]["PaperName"] + "<br />";
+                    resultHtml += "<span>共有" + clicknum + "人作答 最高分" + maxscore + "分</span></a>";
+                    resultHtml += "</div>";
+                    resultHtml += "<span class='intobtn'><a target='_blank' href='/tiku/exam/kaoshi/item/" + result.list[i]["PaperID"] + "'>进入考场 <em></em></a></span>";
+                    resultHtml += "<div class='clear'></div>";
+                    resultHtml += "</li>";
+                }
+                resultHtml += "</ul>";
+
+                $(".zxkclist").html(resultHtml);
+            }
+            else {
+                $(".zxkclist").html("<div class=\"nodata\">暂无推荐试卷...</div><br class=\"cb\" />");
+            }
+        }, seniorrootdirectory + "/autumn/gethomepaperlist", { parentid: classid, papertype: papertype, toptake: 10 });
+    }
+</script>
+<div class="bannerwapper">
+    <div class="banner">
+        <div class="banner_show" id="banner_show">
+
+                <a href="javascript:;" class="bannger_inbox">
+                    <img src="static/picture/1920-326-left.jpg" width="2000" height="326">
+                </a>
+                <a href="javascript:;" class="bannger_inbox">
+                    <img src="static/picture/1920-326-left.png" width="2000" height="326">
+                </a>
+            <div class="banner_pre_next"><a href="javascript:;" class="banner_btn_left">上一个</a> <a href="javascript:;" class="banner_btn_right">下一个</a> </div>
+        </div>
+    </div>
+    <div class="w1000">
+        <div class="login-reg">
+            <div class="adminbg">
+                <ul>
+                    <li class="loginhov"><a href="javascript:;">会员登录</a></li>
+                    <li class="reghov"><a target="_blank" href="javascript:;">免费注册</a></li>
+                </ul>
+            </div>
+            <div style="display: block;">
+                <div class="username">
+                    <em></em>
+                    <input id="txtUserName" name="txtUserName" type="text" maxlength="25" autocomplete="off">
+                </div>
+                <div class="username password">
+                    <em></em>
+                    <input id="txtPassWord" name="txtPassWord" type="password" maxlength="25" autocomplete="off">
+                </div>
+                <div class="xuanxiang">
+                    <input name="input" type="checkbox" value="">
+                    <a href="javascript:;">记住登录</a>&nbsp; &nbsp; <a target="_blank" href="javascript:;">忘记密码</a>
+                </div>
+                <p class="loginbtns">
+                    <input id="btnLogin" name="btnLogin" type="button" value="登 录">
+                </p>
+                
+            </div>
+            <div style="display: none;">
+                <div class="username">
+                    <em></em>
+                    <input name="" type="text" value="输入用户名">
+                </div>
+                <div class="username password">
+                    <em></em>
+                    <input name="" type="text" value="设置密码">
+                </div>
+                <div class="yzm">
+                    <input name="" type="text" value="输入验证码">
+                </div>
+                <p class="loginbtns regbtns">
+                    <input name="" type="submit" value="注 册">
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="about w1000">
+    <div class="timesb">
+        <a target="_blank" href="javascript:;" alt="考试时间表" title="考试时间表">
+            <img src="static/picture/fang2017.png" width="200" height="191" alt="考试时间表"></a>
+    </div>
+    <div class="aboutinfo">
+        <p class="aboutit">-泸州市胜蓝职业学校-</p>
+        <p class="aboutshow">
+                <span style="color: #999999">网校课程中心成立至今，一直着重打造网校质量与口碑，积极加强师资队伍建设，完善学员服务的渠道，致力于做学员满意的品牌网校。 网校开发及拥有的课件范围涉及建筑类、财会类、职业类、学历类、外语类、IT类、医学医药等7大类考试的在线网络培训辅导。 网校的师资队伍均是我们精心从全国各地聘请优秀教师，他们具有丰富的从业经验、专业的知识储备和行业较高的知名度。这些优秀教师的加盟，为网校的师资队伍的整体质量提供了保障，也为广大考生们顺利备考提供了充分保证。</span><a target="_blank" href="javascript:;">[更多]</a>
+        </p>
+        <em class="aboutell">电话：0830-6663336</em> <em class="aboutadd">地址：四川省泸州市江阳区新区转盘/纪念标（公交公司后面）</em>
+        <div class="fenxiang">
+            <!-- JiaThis Button BEGIN -->
+            <span>分享到：</span>
+            <div class="bdsharebuttonbox">
+                
+                <div class="jiathis_style_24x24">
+                    <a class="jiathis_button_qzone"></a>
+                    <a class="jiathis_button_tsina"></a>
+                    <a class="jiathis_button_tqq"></a>
+                    <a class="jiathis_button_weixin"></a>
+                    <a class="jiathis_button_renren"></a>
+                    <a href="javascript:;" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+                    <a class="jiathis_counter_style"></a>
+                </div>
+                <script type="text/javascript" src="static/js/jia.js" charset="utf-8"></script>
+            </div>
+            <!-- JiaThis Button END -->
+        </div>
+        <div class="yinhao"></div>
+    </div>
+</div>
+<div class="clear"></div>
+<div class="w1000 flkc">
+    <div class="maintit">
+        <em class="iconhot"></em><em class="iconsj"></em>
+        <div class="left"><span>分类课程</span> 热门课程推荐</div>
+        <div class="more"><a target="_blank" href="javascript:;">更多 <em>+</em></a></div>
+    </div>
+    <div class="clear"></div>
+    <div class="flkcs">
+        <div class="kcleftnav">
+            <ul>
+            </ul>
+        </div>
+        <div class="kcrig">
+            <div class="kclass">
+                <ul>
+                </ul>
+            </div>
+            <div class="kcshow">
+                <ul>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+<div class="w1000 zxkc">
+    <div class="maintit">
+        <em class="iconhot"></em><em class="iconsj"></em>
+        <div class="left"><span>在线考场</span> 热门考试</div>
+        <div class="more"><a target="_blank" href="javascript:;">更多 <em>+</em></a></div>
+    </div>
+    <div class="zxkcnav">
+        <ul>
+            <li newclass="14" class="zxnavhov"><a href="javascript:;">建筑类</a></li>
+            <li newclass="13"><a href="javascript:;">财会类</a></li>
+            <li newclass="6"><a href="javascript:;">职业类</a></li>
+            <li newclass="19"><a href="javascript:;">学历类</a></li>
+            <li newclass="15"><a href="javascript:;">外贸类</a></li>
+            <li newclass="12"><a href="javascript:;">外语类</a></li>
+            <li newclass="62"><a href="javascript:;">计算机</a></li>
+            <li newclass="16"><a href="javascript:;">医药类</a></li>
+        </ul>
+    </div>
+    <div class="zxkcnavtwo">
+        <ul>
+            <li id="limoni" papertype="3" class="zxkcnavtwohov"><a href="javascript:;"><em></em>模拟试题</a></li>
+            <li id="lizhangjie"><a target="_blank" href="javascript:;"><em></em>章节练习</a></li>
+            <li id="lilinian" papertype="2"><a href="javascript:;"><em></em>历年真题</a></li>
+        </ul>
+        <div class="aaa"></div>
+    </div>
+    <div class="zxkclist">
+        
+    </div>
+</div>
+<div class="w1000 mszz">
+    <div class="maintit">
+        <em class="iconhot"></em><em class="iconsj"></em>
+        <div class="left"><span>师资助阵</span> 师资精英</div>
+        <div class="more"><a target="_blank" href="javascript:;">更多 <em>+</em></a></div>
+    </div>
+    <div id="test" style="height: 270px; position: relative;">
+        <div class="viewport" style="width: 1000px; position: relative; overflow: hidden; height: 270px; float: left;">
+            <div class="overview" style="position: absolute; width: 2020px;">
+                <ul><li style=''><div class='msleftinfo'><a target='_blank' href='javascript:;'>张程华</a><a target='_blank' href='javascript:;'>老师简介</a><a href='javascript:;' class='yellow'>咨询</a><a href='javascript:;' class='yellow'>试听</a></div><div class='left'><a target='_blank' href='javascript:;'><img src='static/picture/20190227123951_1504.jpg' width='280' height='350' onerror="this.src='https://img2.233.com/wx/union/1.png'"></a></div></li><li style=''><div class='msleftinfo'><a target='_blank' href='javascript:;'>任慧武</a><a target='_blank' href='javascript:;'>老师简介</a><a href='javascript:;' class='yellow'>咨询</a><a href='javascript:;' class='yellow'>试听</a></div><div class='left'><a target='_blank' href='javascript:;'><img src='static/picture/151563663176911.jpg' width='280' height='350' onerror="this.src='https://img2.233.com/wx/union/1.png'"></a></div></li><li style=''><div class='msleftinfo'><a target='_blank' href='javascript:;'>冯亚杰</a><a target='_blank' href='javascript:;'>老师简介</a><a href='javascript:;' class='yellow'>咨询</a><a href='javascript:;' class='yellow'>试听</a></div><div class='left'><a target='_blank' href='javascript:;'><img src='static/picture/156930722177921.jpg' width='280' height='350' onerror="this.src='https://img2.233.com/wx/union/1.png'"></a></div></li><li style=''><div class='msleftinfo'><a target='_blank' href='javascript:;'>安慧</a><a target='_blank' href='javascript:;'>老师简介</a><a href='javascript:;' class='yellow'>咨询</a><a href='javascript:;' class='yellow'>试听</a></div><div class='left'><a target='_blank' href='javascript:;'><img src='static/picture/20190227101626_1336.png' width='280' height='350' onerror="this.src='https://img2.233.com/wx/union/1.png'"></a></div></li><li style='margin-right:0;'><div class='msleftinfo'><a target='_blank' href='javascript:;'>黄静</a><a target='_blank' href='javascript:;'>老师简介</a><a href='javascript:;' class='yellow'>咨询</a><a href='javascript:;' class='yellow'>试听</a></div><div class='left'><a target='_blank' href='javascript:;'><img src='static/picture/20190227173619_4467.jpg' width='280' height='350' onerror="this.src='https://img2.233.com/wx/union/1.png'"></a></div></li></ul>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="scrollbar" style="top: 275px; position: absolute; left: 0px;">
+            <div class="rollbtn">
+                <div class="thumb"></div>
+            </div>
+            <div class="rolline"></div>
+        </div>
+
+
+    </div>
+    <div class="mszzbg"></div>
+</div>
+<div class="w1000 wxys">
+    <div class="maintit">
+        <em class="iconhot"></em><em class="iconsj"></em>
+        <div class="left"><span>网校优势</span> 我们始终秉承“一切以用户为中心”的发展理念。以互联网为纽带，帮助每个有志者实现自己的梦想，实现你我共赢。</div>
+    </div>
+    <div class="wxysinfo">
+        <span class="wxmid"></span>
+        <div class="wxys01 clearfix">
+            <div class="ysleft">
+                <p class="wxystit"><a target="_blank" href="javascript:;" style="color: #FDC400">在线模考</a></p>
+                <p class="yshow">海量全真模拟试题全面覆盖各类考点记录每次模考过程并汇总错题供反复演练.</p>
+            </div>
+        </div>
+        <div class="wxys02 clearfix">
+            <div class="ysleft">
+                <p class="wxystit">专业师资</p>
+                <p class="yshow">业内专业师资，系统讲解大纲知识点突出重点、难点，紧跟命题方向透彻解析教材！</p>
+            </div>
+        </div>
+        <div class="wxys03 clearfix">
+            <div class="ysleft">
+                <p class="wxystit">免费下载</p>
+                <p class="yshow">课程视频免费下载，配套课程讲义,方便学员灵活安排学习时间.</p>
+            </div>
+        </div>
+        <div class="wxys04 clearfix">
+            <div class="ysleft">
+                <p class="wxystit">品质课程</p>
+                <p class="yshow">科学教学规划 采用多班次的渐进式教学体系 让学习层层递进，稳步锁分！</p>
+            </div>
+        </div>
+    </div>
+    <div class="mszzbg"></div>
+</div>
+<div class="w1000 bmlc">
+    <div class="maintit">
+        <em class="iconsj"></em>
+        <div class="left"><span>报名流程</span></div>
+    </div>
+    <div class="bmlclist clearfix">
+        <ul>
+            <li><em></em>
+                <br class="clear">
+                <span>01  免费试听</span>
+                <p><a href="javascript:;">高清课程免费视听体验,网校老师考点精讲,热门课程优先免费视听考点。</a></p>
+            </li>
+            <li class="bmicon02"><em></em>
+                <br class="clear">
+                <span>02  注册用户</span>
+                <p><a href="javascript:;">高清课程免费视听体验,网校老师考点精讲,热门课程优先免费视听考点。</a></p>
+            </li>
+            <li class="bmicon03"><em></em>
+                <br class="clear">
+                <span>03  选课报名</span>
+                <p><a href="javascript:;">在课程列表中，选择合适的网络课程，报名。</a></p>
+            </li>
+            <li class="bmicon04"><em></em>
+                <br class="clear">
+                <span>04  汇款确认</span>
+                <p><a href="javascript:;">通过银行汇款或在线付款(网银、支付宝)付款后请联系客服确认汇款信息。</a></p>
+            </li>
+            <li class="bmicon05"><em></em>
+                <br class="clear">
+                <span>05  开通课程</span>
+                <p><a href="javascript:;">联系客服帮助您开通购买课程获取听课权限。</a></p>
+            </li>
+            <li class="bmicon06"><em></em>
+                <br class="clear">
+                <span>06  开始学习</span>
+                <p><a href="javascript:;">开启学习旅程，享受高质全方位学习服务体系。</a></p>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="clear"></div>
+
+
+    <!--mainbody end-->
+    <!--页尾开始-->
+<link type="text/css" rel="stylesheet" href="static/css/footer_winter_blue.css">
+    <div class="footwapper">
+        <div class="w1000">
+            <p>
+                
+            </p>
+                <p>
+                        <span>24小时报名咨询热线：</span><b>0830-6663336</b> 
+                                            <span>&nbsp;&nbsp;地址：</span>四川省泸州市江阳区新区转盘/纪念标（公交公司后面）                </p>
+                            <p>
+                                            <span>&nbsp;&nbsp;Email：</span>sljy@sl518.com                </p>
+                            <p>
+                        <span>泸州市胜蓝职业学校-版权所有</span>
+                                    </p>
+                            <p>
+                        <span style="margin-right:15px"><a href="javascript:;" target="_blank">蜀ICP备06002692-1号</a></span>
+                                            <span style="margin-right:15px"><a href="javascript:;" target="_blank"><img src="static/picture/police.png" class="anbei"> 蜀ICP备06002692-1号</a></span>
+                                    </p>
+             
+        </div>
+    </div>
+
+
+    <!--页尾结束-->
+</body>
+</html>
+

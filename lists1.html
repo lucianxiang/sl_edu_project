@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>问答-胜蓝教育</title>
+    <meta name="Keywords" content="在线考试，在线课堂">
+    <meta name="Description" content="泸州市胜蓝职业学校在线教育平台">
+    <link rel="stylesheet" type="text/css" href="static/css/zxjy.css">
+    <script type="text/javascript" src="static/js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="static/js/jquery.SuperSlide.2.1.1.js"></script>
+    <script type="text/javascript" src="static/js/layer.js"></script>
+    
+</head>
+<body>
+<!-- 头部 Start -->
+<div class="m_header">
+    <a class="logo" href="online_study.html"><img src="static/picture/logo11.png" alt="泸州市胜蓝职业学校"></a>
+        <span class="login-before">
+            <a class="login-btn" href="httpwww.sl518.com.html">登录</a>
+            <a class="register-btn" href="register.html">注册</a>
+        </span>
+        <ul class="nav">
+        <li><a href="online_study.html">首页</a></li>
+        <li><a href="classfiy.html">视频课程</a></li>
+        <li><a href="lists.html">在线题库</a></li>
+        <li><a href="">问答</a></li>
+        <li><a href="lists2.html">文库资源</a></li>
+    </ul>
+    <div class="search">
+        <form>
+            <input type="text" name="">
+            <a href="#">电子商务</a>
+            <a href="#">平面广告</a>
+            <button type="submit"></button>
+        </form>
+    </div>
+</div>
+<!-- 头部 End -->
+
+
+<div class="wrap mt40">
+    <div class="wenda_list_wrap">
+        <div class="hd">
+            <span class="active"><a href="javascript:questionlist(1,9);">全部问答</a></span>
+            <span><a href="javascript:questionlist(1,1);">已经解决</a></span>
+            <span><a href="javascript:questionlist(1,0);">没有解决</a></span>
+        </div>
+        <ul>
+        </ul>
+    </div>
+    <div class="wenda_list_right">
+        <div class="wenda_list_banner">
+            <img src="static/picture/wenda_list_banner.jpg">
+        </div>
+        <div class="tiwen"><a href="javascript:;">我要提问</a></div>
+        <div class="gjz">
+            <a href="#">平面</a>
+            <a href="#">网络推广</a>
+            <a href="#">电商美工</a>
+            <a href="#">word</a>
+            <a href="#">Photoshop</a>
+            <a href="#">平面图像设计</a>
+            <a href="#">CorelDRAW</a>
+            <a href="#">excel</a>
+            <a href="#">CAD建筑设计</a>
+            <a href="#">五笔打字</a>
+            <a href="#">计算机网络</a>
+            <a href="#">组装与维修</a>
+            <a href="#">老年护理</a>
+            <a href="#">创业培训</a>
+        </div>
+    </div>
+</div>
+
+
+<!-- footer Start -->
+<div class="m_footer">
+    <div class="hd">
+        <a href="index.html">胜蓝官网</a>
+        <a href="javascript:;">四川未来生活网</a>
+    </div>
+    <div class="ft">©泸州市胜蓝职业学校-版权所有   蜀ICP备06002692-1号</div>
+</div>
+<!-- footer End -->
+<!-- 右侧浮动 Start -->
+<div class="m_ycfd">
+    <a class="gotop" href="javascript:;" style="display: block;"><i></i></a>
+    <a class="QQ" href="javascript:;"><i></i></a>
+    <div class="erweima">
+        <a href="javascript:;"><i></i></a>
+        <div class="con">
+            <img src="static/picture/20815740959fc0fa26f0cb.png">
+            <p>扫一扫 关注我们</p>
+        </div>
+    </div>
+</div>
+<!-- 右侧浮动 End -->
+
+<script type="text/javascript">
+    //回到顶部
+    $(".gotop").hide();
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 100)
+            $(".gotop").fadeIn(500);
+        else
+            $(".gotop").fadeOut(500);
+    });
+    $(".gotop").on("click", function () {
+        $('body,html').animate({ scrollTop: 0 }, 800);
+        return false;
+    });
+</script>
+
+<script>
+    var loading;
+    q_pages=1;
+    $(function(){
+        questionlist(1,9);
+    });
+    function questionlist(type,status){
+        if(type==1){
+            q_pages=1;
+            $(".wenda_list_wrap ul").html("");
+        }
+        if(status==1){
+            $(".hd span").removeClass("active");
+            $(".hd span:eq(2)").addClass("active");
+        }else if(status==0) {
+            $(".hd span").removeClass("active");
+            $(".hd span:eq(3)").addClass("active");
+        }else {
+            $(".hd span").removeClass("active");
+            $(".hd span:eq(1)").addClass("active");
+        }
+        $.ajax({
+            type:"post",
+            url: '/question/lists.html',
+            data: {id:'',page:q_pages,status:status,uid:'McAxO0O0OpO0O0Oh'},
+            success:function(d){
+                layer.close(loading);
+                var html="";
+                if(d.total==0){
+                    html="<li class='notiwen'>还没有相关提问哦</li>";
+                    $(".wenda_list_wrap ul").append(html);
+                }else {
+                    $.each(d.data,function(i,item){
+                        if(item.issolve>0){
+                            html+=' <li style="background: url(http://online.sl518.com/ol/images/yijj.png) no-repeat center right;background-size: 10rem;">' +
+                                    '<div class="header_pic"> <img src="'+item.userinfo.headimg+'" alt="'+item.userinfo.name+'"></div>' +
+                                    '<div class="text">' +
+                                    '<div class="name"> <span>'+item.userinfo.name+'</span> <span class="fr time">'+item.times+'</span> </div>' +
+                                    ' <div class="ques_con"> <a class="tt" href="/question/info.html?qid='+item.qid+'">'+item.title+'</a> <a class="fr con"> <span>'+item.answer+'个回答</span> <span>'+item.view+'人浏览</span> </a> </div>' +
+                                    '</div> </li>';
+                        }else {
+                            html+=' <li>' +
+                                    '<div class="header_pic"> <img src="'+item.userinfo.headimg+'" alt="'+item.userinfo.name+'"></div>' +
+                                    '<div class="text">' +
+                                    '<div class="name"> <span>'+item.userinfo.name+'</span> <span class="fr time">'+item.times+'</span> </div>' +
+                                    ' <div class="ques_con"> <a class="tt" href="/question/info.html?qid='+item.qid+'">'+item.title+'</a> <a class="fr con"> <span>'+item.answer+'个回答</span> <span>'+item.view+'人浏览</span> </a> </div>' +
+                                    '</div> </li>';
+
+                        }
+
+                    });
+                    if(q_pages== d.last_page){
+                        html+="<li class='morecommon'>已经到底了</li>";
+                    }else {
+                        q_pages++;
+                        html+="<li class='morecommon'><p onclick='questionlist(2,"+status+")'>更多</p></li>";
+                    }
+                    $(".wenda_list_wrap ul").append(html);
+                }
+            },beforeSend:function(){
+                if($(".wenda_list_wrap ul li.morecommon").length > 0){
+                    $(".wenda_list_wrap ul li.morecommon").remove();
+                }
+                loading = layer.load(0, {
+                    shade: [0.1,'#fff'] //0.1透明度的白色背景
+                });
+            }
+        });
+    }
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,108 @@
+.clear{ clear:both;}
+.wx-header-ad{ width:100%;font-family:"\5FAE\8F6F\96C5\9ED1"; }
+.wx-header-cont{ background:#07111b;width:100%;font-family:"\5FAE\8F6F\96C5\9ED1";font-size:12px; line-height:24px}
+.wx-header-container{ width:1120px; margin:0 auto; height:50px;}
+.wx-header-container .dropdown-arrow{ display:inline-block; width:7px; height:4px; background:url(../image/wx_hd_bg.png) -100px -60px no-repeat; margin-left:10px}
+.wx-header-container .dropdown-arrow:hover{ background-position:-100px -72px}
+.wx-header-container .fl-box{ float:left;}
+.wx-header-container .line{ width:2px; height:50px; background:url(../image/wx_hd_bg.png) -100px -90px no-repeat; float:left; margin:0 0 0 10px}
+
+
+	
+.wx-header-container .logo {
+    margin-top: 5px;
+    float: left;
+    max-width: 200px;
+    height: 34px;
+    overflow: hidden;
+}
+.logo a {
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+    overflow:hidden;
+}
+.logo a img{
+	width: 120px;
+    height: auto;
+	}
+
+.wx-header-container .wx-subject{ float:left; position:relative; padding:0 30px 0 10px; height:41px; padding-top:5px; cursor:pointer}
+.wx-header-container .wx-subject:hover{ border-top:#ef4600 solid 4px;}
+.wx-header-container .wx-subject .dropdown-arrow{ position:absolute; right:10px; top:20px}
+.wx-header-container .wx-subject:hover .dropdown-arrow{ background-position:-100px -72px}
+.wx-header-container .wx-subject h2{ overflow:hidden; white-space:nowrap; line-height:30px; max-width:250px; font-size:22px; text-align:center; font-weight:100; color:#9a9ea2; padding: 0}
+.wx-header-container .wx-subject .subject-more { width:100%; text-align:center; margin-top:5px}
+.wx-header-container .wx-subject .subject-more .txt{ font-size:12px;font-family:Arial, Helvetica, sans-serif; color:#999; display:inline-block }
+.wx-header-container .wx-subject .subject-more .icon{ display:inline-block; width:7px; height:4px; background:url(../image/wx_hd_bg.png) -100px -60px; margin:5px 5px 0 5px}
+.wx-header-container .wx-subject .subject-list{ position:absolute; left:-3px; top:46px ; background:#07111b; width:405px; padding:10px 0 20px 20px;border-radius:0 0 6px 6px; display: none; z-index: 999}
+.wx-header-container .wx-subject:hover .subject-list{display: block}
+.wx-header-container .wx-subject .subject-list a{ display:block; width:120px; float:left; text-align:center; margin:10px 10px 0 0;  background:#1f2831; color:#9a9ea2; font-size:14px; line-height:30px; border-radius:2px; border:#07111b solid 1px; height:32px; white-space:nowrap; overflow:hidden;text-overflow:ellipsis;}
+.wx-header-container .wx-subject .subject-list a:hover{ background-color:#262f38; color:#ef4600}
+.wx-header-container .wx-subject .subject-list a.this{border-color:#ef4600; color:#ef4600}
+.wx-header-container .classify{ float:left}
+.wx-header-container .classify .classify-list{  border-top:#07111b solid 4px; float:left; border-right:#142537 solid 1px; padding:5px 11px 0 11px; height:40px; position:relative; #width:42px}
+.wx-header-container .classify .classify-list .icon{ width:30px; height:30px; background-image:url(../image/wx_hd_bg.png); background-repeat:no-repeat; margin:0 auto}
+.wx-header-container .classify .classify-list .myclass{ background-position:0 0 }
+.wx-header-container .classify .classify-list .exam{ background-position:0 -30px }
+.wx-header-container .classify .classify-list .news{ background-position:0 -60px }
+.wx-header-container .classify .classify-list .shopping{ background-position:0 -90px }
+.wx-header-container .classify .classify-list .phone{ background-position:0 -120px}
+.wx-header-container .classify .classify-list:hover { border-top:#ef4600 solid 4px;}
+.wx-header-container .classify .classify-list:hover .txt{ color:#ef4600}
+.wx-header-container .classify .classify-list:hover .myclass{ background-position:-50px 0 }
+.wx-header-container .classify .classify-list:hover .exam{ background-position:-50px -30px }
+.wx-header-container .classify .classify-list:hover .news{ background-position:-50px -60px }
+.wx-header-container .classify .classify-list:hover .shopping{ background-position:-50px -90px }
+.wx-header-container .classify .classify-list:hover .phone{ background-position:-50px -120px}
+.wx-header-container .classify .classify-list .txt{ text-align:center; font-size:14px; color:#666}
+.wx-header-container .fr-box{ float:right}
+.wx-header-container .wx-telephone{ float:left; width:125px; padding-right:15px; padding-top:0px}
+.wx-header-container .wx-telephone .txt1{ font-size:14px;color:#9a9ea2; text-align:right; padding-top:6px; line-height:18px}
+.wx-header-container .wx-telephone .txt2{ font-size:15px; color:#9a9ea2;text-align:right; font-weight:bold; line-height:21px}
+.wx-header-container .personal-no{ float:left; height:37px; padding:13px 0 0 0;font-size:14px;}
+.wx-header-container .personal-no{ color:#ddd}
+.wx-header-container .personal-no p{ color:#142537; padding:0 10px}
+.wx-header-container .personal-no a{ padding:0 5px; color:#9a9ea2}
+.wx-header-container .personal-no a.red{ color:#ef4600}
+.wx-header-container .personal-no a:hover{color:#ef4600}
+.wx-header-container .personal{float:left; height:50px; padding:0 10px; position:relative;}
+.wx-header-container .personal .pic{display:block;}
+.wx-header-container .personal .pic img{ width:38px; height:38px; border-radius:38px;border:#142537 solid 2px; margin-top:5px}
+.wx-header-container .personal:hover .pic img{border:#ef4600 solid 2px;}
+.wx-header-container .personal .pop-personal{ position:absolute; top:50px; right:0; font-size:14px; color:#9a9ea2; background:#07111b; width:100px;text-align:center; padding-top:10px; padding-bottom:10px; border-radius:0 0 6px 6px;display:none;z-index: 999}
+.wx-header-container .personal:hover .pop-personal{display:block;}
+.wx-header-container .personal .pop-personal:hover{ color:#059}
+.wx-header-container .personal .pop-personal .icon{ width:17px; height:17px; display:inline-block; background:url(../image/wx_hd_bg.png) -100px 0 no-repeat; vertical-align:-3px; #vertical-align:2px}
+.wx-header-container .personal .pop-personal .txt{ display:inline-block; padding-left:10px; color:#9a9ea2}
+.wx-header-container .personal .pop-personal:hover .txt{color:#ef4600}
+.wx-header-container .personal .pop-personal:hover .icon{ background-position:-130px 0}
+.wx-header-container .personal .dropdown-arrow{ margin-top:25px}
+.wx-header-container .personal:hover .dropdown-arrow{ background-position:-100px -72px}
+
+.wx-header-container .wx-subject,.wx-header-container .classify .classify-list{ border-right:#07111b solid 1px;border-top:#07111b solid 4px;}
+.wx-header-container .personal-no,.wx-header-container .personal{border-left:#07111b solid 1px;border-right:#07111b solid 1px;}
+
+
+
+.white-skin .wx-header-container .dropdown-arrow,.white-skin .wx-header-container .classify .classify-list .icon,.white-skin .wx-header-container .line{background-image:url(../image/wx_hd_bg_white.png)}
+.white-skin{ background-color:#fff}
+.white-skin .wx-header-container .wx-subject,.white-skin .wx-header-container .classify .classify-list{border-right-color:#f2f3f4; border-top-color:#fff}
+.white-skin .wx-header-container .wx-subject:hover{border-top-color:#ef4600}
+.white-skin .wx-header-container .classify .classify-list:hover{ border-top-color:#ef4600}
+.white-skin .wx-header-container .personal,.white-skin .wx-header-container .personal .pic img,.white-skin .wx-header-container .personal-no{border-color:#f2f3f4;}
+.white-skin .wx-header-container .personal .pic img:hover{ border-color:#ef4600;}
+.white-skin .wx-header-container .wx-subject .subject-list,.white-skin .wx-header-container .personal .pop-personal{ background-color:#fff;}
+.white-skin .wx-header-container .wx-subject .subject-list a{ background-color:#fff; border-color:#e9eaeb}
+.white-skin .wx-header-container .wx-subject .subject-list a:hover{border-color:#ef4600}
+.white-skin .wx-header-container .wx-subject .subject-list a.this{border-color:#ef4600; color:#ef4600}
+.white-skin .wx-header-container .wx-subject h2{ color:#444}
+.white-skin .wx-header-container .wx-telephone .txt2{ color:#ef4600}
+.white-skin .wx-header-container .personal-no p{ color:#f2f3f4}
+
+
+@media screen and (min-width:1440px) {
+	.wx-header-container{ width:1130px;}
+}
+
+.top{display: none}

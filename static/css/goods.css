@@ -1,0 +1,56 @@
+@charset "utf-8";
+.bg{background-color: #f1f1f1;}
+.m_header{background-color: #fff;}
+
+
+.scourse-info{padding: 50px 0;background-color: #fff;overflow: hidden;background: url(../image/info_bg.jpg) no-repeat;}
+.scourse-info .left{width: 440px;height: 248px;line-height: 300px;overflow: hidden;background-color: #eee;float: left;border-radius: 10px;}
+.scourse-info .left img{display: block;}
+.scourse-info .pic{width: 400px;height: auto;vertical-align: middle;display: block;}
+.scourse-info .info{padding-left: 500px;}
+.scourse-info .name{font-size: 28px;font-weight: bold; color: #fff;margin-bottom: 16px;}
+.scourse-info .shoucang{font-size: 14px;color: #fff;line-height: 28px;float: left;margin-left: 60px;margin-top: 15px;}
+.scourse-info .shoucang i{width:20px;height: 20px;display: inline-block;vertical-align: middle;margin-right: 6px;}
+.scourse-info .shoucang i.sc_before{background: url(../image/zxjy.png) no-repeat -316px 0;}
+.scourse-info .shoucang i.sc_after{background: url(../image/zxjy.png) no-repeat -349px 0;display: none;}
+
+.scourse-info .renshu{font-size: 14px;color: #fff;line-height: 32px;float: left;margin-left: 60px;margin-top: 15px;} 
+.scourse-info .renshu i{width:25px;height: 22px;display: inline-block;vertical-align: middle;margin-right: 6px;margin-top: -10px; background: url(../image/zxjy.png) no-repeat -375px -77px;}
+
+.scourse-info .pricebox{overflow: hidden;margin-top:36px;}
+.scourse-info .price{font-size: 14px;color: #fff;float: left;}
+.scourse-info .price span{color: #e8363a;}
+.scourse-info .price span b{font-size: 36px;padding:0 10px;}
+.scourse-info .box{margin-top: 22px;}
+.scourse-info .box span{font-size: 14px;color: #fff;padding:0 20px;border-left: 1px solid #e2e2e2;}
+.scourse-info .box span:first-child{border:none;padding-left: 0;}
+.scourse-info .ft{margin-top:36px;}
+.scourse-info button{font-size: 16px;color: #fff; width: 140px;height: 50px;line-height: 50px;text-align: center;border-radius: 6px; background-color: #00a3ff;border:none; margin-right: 10px;}
+.scourse-info .shikan{color: #fff;background-color: #e8363a;}
+
+.scourse-info .bds_weixin{width: 38px;height: 30px;background: url(../image/zxjy.png) no-repeat -259px -134px !important;padding-left: 10px;}
+.scourse-info .bds_qzone{width: 30px;height: 28px;background: url(../image/zxjy.png) no-repeat -206px -134px !important;padding-left: 10px;}
+.scourse-info .bds_tsina{width: 36px;height: 28px;background: url(../image/zxjy.png) no-repeat -81px -134px !important;padding-left: 10px;}
+.scourse-info .bds_more{width: 34px !important;height: 36px !important;background: url(../image/zxjy.png) no-repeat -145px -134px !important;}
+
+.scourse{clear: both;width: 1200px; margin: 60px auto;overflow: hidden;}
+.scourse_le{width: 800px;padding:5px 30px 20px 30px;background-color: #fff;float: left;border-radius: 10px;}
+.scourse_le .scourse_title{height: 50px;border-bottom: 1px solid #e2e2e2;margin-bottom: 20px;}
+.scourse_le .scourse_title span{font-size: 16px;color:#00a3ff;text-align: center;display: inline-block;padding: 0 20px; height: 49px;line-height: 49px;border-bottom: 2px solid #00a3ff;}
+.scourse_le .item{padding-top: 20px}
+.scourse_le .item .tt{font-size: 14px;color: #00a3ff; display: inline-block;padding: 5px 20px;border:1px solid #00a3ff;margin-bottom: 10px;}
+.scourse_le .item p{font-size: 12px;color: #555;line-height: 28px;}
+.scourse_le .item img{max-width: 800px;}
+
+.hot_scourse{width: 270px;padding:5px 20px 20px 20px;background-color: #fff;border-radius: 10px;float: right;}
+.hot_scourse .tt{height: 50px; border-bottom: 1px solid #e2e2e2;margin-bottom: 16px;text-align: left;}
+.hot_scourse .tt span{font-size: 16px; color: #00a3ff;padding: 0 10px;display: inline-block; height: 49px;line-height: 49px; border-bottom: 2px solid #00a3ff;}
+.hot_scourse li{padding: 20px 0;overflow: hidden; border-top: 1px dashed #e2e2e2;}
+.hot_scourse li:first-child{border:none;padding-top: 0;}
+.hot_scourse .pic{width:100px;float: right;display: block;}
+.hot_scourse .pic img{width:100px;height: auto;display: block; border-radius: 6px; transition: all 0.4s linear;}
+.hot_scourse .name{font-size: 14px;color: #444;margin: 10px 0;overflow:hidden; white-space: nowrap; text-overflow:ellipsis;}
+.hot_scourse li:hover .pic img{margin-left: -6px;}
+.hot_scourse li:hover .name{color: #00a3ff;}
+.hot_scourse .text{width: 150px; float: left;}
+.hot_scourse .text span{font-size: 12px;color: #777;}

@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+.border-no,.border-no td{border:0!important;}
+
+.wx-class-box{width:1120px;margin:0 auto; }
+
+
+.wx-class-header{margin: 0 auto;width: 1020px; padding-left: 100px;position: relative;}
+.wx-class-header li.wx-label-zhbj{ width:135px!important; position:absolute!important; left:0;top:0px; height:120px; background:url("../image/wx-label-zhbj.png") 0 0; z-index:230!important}
+.wx-class-header li{float:left;border-radius:8px 8px 0 0; text-align: center; color: #fff; padding:22px 0; z-index: 1; position: relative;}
+.wx-class-header li span{ font-size: 38px; font-weight: bold;}
+
+.wx-class-header .class-xz{width:510px;}
+.wx-class-right{width:490px;}
+
+.class-box-three .class-xz{width:340px;}
+.class-box-three .wx-class-right{width:300px;}
+
+
+.wx-class-list .wx-class-left{width:100px;text-align: center;vertical-align: middle!important;font-size: 14px;font-weight: bold;color: #666; background:#fff;border-top:1px solid #ebebeb;padding: 20px 0 ;	}
+
+.wx-class-right{border-left: 1px solid #eee;border-bottom: 1px solid #eee;}
+.class-crowd .wx-class-right,.class-include .wx-class-right,.class-characteristic .wx-class-right,.class-feature .wx-class-right{vertical-align: top; padding: 16px 20px;line-height: 1.6em;}
+
+.class-feature li,.class-characteristic li{}
+
+.wx-class-list .class-subject td{vertical-align: top;}
+.class-subject tr:first-child td{border-bottom: 1px solid #eee;}
+.class-subject tr td{line-height:50px;height: 50px;}
+.class-subject tr+tr td{border-top: 1px solid #eee;}
+.class-subject .class-name{min-width:100px;max-width:200px;font-size: 15px;text-align: right;}
+.class-subject .class-price{font-size: 18px;text-align: left;padding-left: 20px;}
+.class-subject .btn-redbg{float: right;margin-right:20px;margin-top: 9px;font-size: 16px;text-align: center;width: 80px;height:32px;line-height: 32px;border-radius: 30px;transition: .2s;}
+.class-subject .btn-redbg:hover{transform: translateY(-5px);transition: all .3s;}
+
+
+.wx-class-list .class-include{vertical-align: top;}
+.wx-class-list .class-include span{margin-right:12px;margin-bottom: 12px; display: inline-block;padding:0 8px;background:#f6f6f6;border: 1px solid #ddd; line-height: 32px;border-radius:20px;}
+
+
+.class-button .wx-class-right{padding:20px 0;text-align:center;}
+.class-button .wx-class-right a{margin:0 14px;display:inline-block; width:140px;height:40px;line-height:40px;border-radius:20px;transition: .2s;}
+.class-button .wx-class-right a:hover{transform: translateY(-5px);transition: all .3s;}

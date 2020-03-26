@@ -1,0 +1,13 @@
+.C_topline { height:35px; line-height:35px; background:#f5f5f5; border-bottom:1px #dcdcdc solid; color:#6c6c6c; }
+.C_topline .w_main { width:1000px; margin:0px auto; }
+.C_topline a, .C_footer a {color:#6c6c6c;}
+.C_topline a.redTxt { color:#f05c0d; }
+.C_topline .user { margin-left:10px; color:#f05c0d; font-family:Arial; float:left; }
+.C_topline .grayTxt { float:right; margin:auto 10px; color:#e0e0e0; }
+.C_topline .home { background:url(../image/top_line.png) no-repeat 3px 10px; text-indent:2em; }
+.C_topline .home:hover { background-position:3px -24px;}
+.C_topline .car { background:url(../image/top_line.png) no-repeat 3px -55px; text-indent:2em; }
+.C_topline .car b { font-weight:normal; color:#f05c0d; }
+.C_topline .ml10{ margin-left:10px;}
+.fl{ float:left; display:inline;}
+.fr{ float:right; display:inline;}
